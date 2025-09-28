@@ -1,0 +1,29 @@
+{
+  "coding": [
+    {
+      "id": 1,
+      "title": "Weather App",
+      "desc": "GoLang + OpenWeather API — simple UI",
+      "image": "/images/weather.png",
+      "link": "https://github.com/you/weather-app"
+    }
+  ],
+  "roblox": [
+    {
+      "id": 11,
+      "title": "Spooky Obby",
+      "desc": "Halloween obby with pumpkins chasing players",
+      "image": "/images/obby.png",
+      "link": "https://www.roblox.com/games/yourgameid"
+    }
+  ],
+  "fun": [
+    {
+      "id": 21,
+      "title": "Goofy Bot",
+      "desc": "Discord bot that posts memes",
+      "image": "/images/bot.png",
+      "link": ""
+    }
+  ]
+}
