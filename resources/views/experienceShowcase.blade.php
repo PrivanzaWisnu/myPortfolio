@@ -1,23 +1,22 @@
 @extends('layouts.app')
 
-@section('title','Privanza — Portfolio')
+@section('title','Privanza — Experience Showcase')
 
 @section('content')
   <header class="d-flex align-items-center gap-3 mb-4">
-    {{-- <div class="rounded-3 d-flex align-items-center justify-content-center" style="width:72px;height:72px;background:linear-gradient(135deg,#b700ff,#00f0ff);font-weight:700;">PW</div> --}}
+    <div class="rounded-3 d-flex align-items-center justify-content-center" style="width:72px;height:72px;background:linear-gradient(135deg,#b700ff,#00f0ff);font-weight:700;">LGBG</div>
     <div class="profile-pic-wrapper">
-    <img style="pointer-events: none;border-radius: 25%" width="100" height="100" src="{{ asset('img\fotoPorto.jpg') }}" alt="">
+    {{-- <img style="border-radius: 25%" width="100" height="100" src="{{ asset('img\fotoPorto.jpg') }}" alt=""> --}}
     </div>
     <div>
-      <h1 class="neon-title mb-0">Vanza</h1>
-      <p style="color: #386669" class="mb-0">Hi, I’m a Computer Science student at BINUS University, graduating in 2027. I enjoy building web applications with Laravel, experimenting with database queries, and exploring UI/UX design to make apps both powerful and user-friendly. I love turning ideas into working projects and I’m always curious about how to improve both the logic behind the system and the experience in front of the screen.</p>
+      <h1 class="neon-title mb-0">LG01 Battlegrounds</h1>
     </div>
   </header>
 
   <section class="mb-5">
-    <h3 class="mb-3">💻 Coding Projects</h3>
+    <h3 class="mb-3">Screenshots</h3>
     <div class="row g-3">
-      @foreach($projects['coding'] ?? [] as $p)
+      @foreach($expsc['screenshots'] ?? [] as $p)
         <div class="col-md-4">
           <div class="card card-project h-100 p-3">
             {{-- @if(!empty($p['image']))
@@ -33,9 +32,9 @@
   </section>
 
   <section class="mb-5">
-    <h3 class="mb-3">🎮 Roblox Map</h3>
+    <h3 class="mb-3">Videos</h3>
     <div class="row g-3">
-      @foreach($projects['roblox'] ?? [] as $p)
+      @foreach($expsc['videos'] ?? [] as $p)
         <div class="col-md-4">
           <div class="card card-project h-100 p-3">
             {{-- @if(!empty($p['image']))
@@ -44,7 +43,7 @@
             <h5 class="text-white mt-2">{{ $p['title'] }}</h5>
             <p class="text-primary small">{{ $p['desc'] }}</p>
             @if(!empty($p['link']))<a href="{{ $p['link'] }}" target="_blank" class="mb-1 btn btn-sm btn-outline-info">Go to Experience</a>@endif
-            @if(!empty($p['link2']))<a href="{{ $p['link2'] }}" target="_blank" class="mt-2 mb-1 btn btn-sm btn-outline-info">Experience Showcase</a>@endif
+            @if(!empty($p['link2']))<a href="{{ $p['link2'] }}" target="_blank" class="mb-1 btn btn-sm btn-outline-info">Experience Demo</a>@endif
           </div>
         </div>
       @endforeach
@@ -54,15 +53,15 @@
   <section>
     <h3 class="mb-3">📄 Certifications & Publications</h3>
     <div class="row g-3">
-      @foreach($projects['c&p'] ?? [] as $p)
+      @foreach($expsc['c&p'] ?? [] as $p)
         <div class="col-md-4">
           <div class="card card-project h-100 p-3">
             <h5 class="text-white mt-2">{{ $p['title'] }}</h5>
             @if(!empty($p['image']))
-              <img style="pointer-events: none;filter: blur(1px)" src="{{ $p['image'] }}" class="img-fluid rounded" alt="{{ $p['title'] }}">
+              <img style="filter: blur(1px)" src="{{ $p['image'] }}" class="img-fluid rounded" alt="{{ $p['title'] }}">
             @endif
             <p class="text-primary small mt-3">{{ $p['desc'] }}</p>
-            @if(!empty($p['link']))<a href="{{ $p['link'] }}" target="_blank" class="mb-1 btn btn-sm btn-outline-info">Open Document</a>@endif
+            @if(!empty($p['link']))<a href="{{ $p['link'] }}" target="_blank" class="mb-1 btn btn-sm btn-outline-info">See Document</a>@endif
           </div>
         </div>
       @endforeach

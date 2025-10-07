@@ -2,28 +2,57 @@
   "coding": [
     {
       "id": 1,
-      "title": "Weather App",
-      "desc": "GoLang + OpenWeather API — simple UI",
+      "title": "Youtube Realtime Analytics",
+      "desc": "(Still in progress)",
       "image": "/images/weather.png",
       "link": "https://github.com/you/weather-app"
-    }
+    },
+    {
+        "id": 2,
+        "title": "Portfolio Website",
+        "desc": "My Simple Portfolio using Laravel + Bootstrap",
+        "image": "/images/blog.png",
+        "link": "https://github.com/PrivanzaWisnu/myPortfolio"
+  }
   ],
   "roblox": [
     {
       "id": 11,
-      "title": "Spooky Obby",
-      "desc": "Halloween obby with pumpkins chasing players",
+      "title": "LG01 Battlegrounds",
+      "desc": "Roblox battleground map inspired by my friends in college. (Still in progress)",
       "image": "/images/obby.png",
-      "link": "https://www.roblox.com/games/yourgameid"
+      "link": "-",
+      "link2": "/experienceshowcase"
     }
   ],
-  "fun": [
+  "c&p": [
     {
       "id": 21,
-      "title": "Goofy Bot",
-      "desc": "Discord bot that posts memes",
-      "image": "/images/bot.png",
-      "link": ""
+      "title": "Bitlearn Bootcamp",
+      "desc": "Bitlearn Bootcamp: Laravel & SQL Class",
+      "image": "img/BitlearnBatch2.png",
+      "link": "https://drive.google.com/file/d/17WcSSVQjQNdTY7tAEyv6J0xqUMT1_CXx/view?usp=sharing"
+    },
+    {
+      "id": 22,
+      "title": "Sakura Fubuki",
+      "desc": "Sakura Fubuki Japan Course: Basic 0",
+      "image": "img/JepangBasic0SakuraFubuki.jpg",
+      "link": "https://drive.google.com/file/d/18awIenBnV27BoisC-fkH73aHwFCZWkJz/view?usp=drive_link"
+    },
+    {
+      "id": 23,
+      "title": "Persatuan Insinyur Indonesia",
+      "desc": "Seminar About Usage of Machine Learning Algorithm for Network Forensics Investigation",
+      "image": "img/PII.jpg",
+      "link": "https://drive.google.com/file/d/1gbAJL4gIMCNvHtzKV6ffzkd-Gy2jPWqh/view?usp=drive_link"
+    },
+    {
+        "id": 24,
+      "title": "HackerRank",
+      "desc": "HackerRank SQL Basic Certificate",
+      "image": "img/sql_basic_certificate.jpg",
+      "link": "https://drive.google.com/file/d/1g9_b9_FPx3qz5pvgzaVN7Jo1VLyhi1ic/view?usp=drive_link"
     }
   ]
 }
