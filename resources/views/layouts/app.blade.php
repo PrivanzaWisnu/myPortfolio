@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>@yield('title','Privanza — Portfolio')</title>
-  <link rel="icon" href="{{ asset('img/fotoPorto.jpg') }}" type="image/x-icon">
+  <title>@yield('title')</title>
+  <link rel="icon" href="{{ asset('img/portfolio_icon.JPG') }}" type="image/x-icon">
 
   <!-- Bootstrap CDN -->
   @include('layouts.styling')
