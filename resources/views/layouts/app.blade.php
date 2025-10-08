@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>@yield('title')</title>
-  <link rel="icon" href="{{ asset('img/portfolio_icon.jpg') }}" type="image/jpeg">
+  <link rel="icon" href="https://privanzaportfolio.vercel.app/img/portfolio_icon.jpg">
 
   <!-- Bootstrap CDN -->
   @include('layouts.styling')
