@@ -9,7 +9,7 @@
         {
             "id": 6,
             "title": "Java",
-            "image": "img/JavaLogo.JPG",
+            "image": "img/JavaLogo.jpg",
             "rating": 2
         },
         {
@@ -122,7 +122,7 @@
             "id": 57,
             "title": "Docker",
             "image": "img/DockerLogo.png",
-            "rating": 3
+            "rating": 1
         },
         {
             "id": 58,
