@@ -9,19 +9,19 @@
     {{-- <img style="border-radius: 25%" width="100" height="100" src="{{ asset('img\fotoPorto.jpg') }}" alt=""> --}}
     </div>
     <div>
-      <h1 class="neon-title mb-0">LG01 Battlegrounds</h1>
+      <h1 class="neon-title mb-0">LG01 Battlegrounds (In Progress)</h1>
     </div>
   </header>
 
-  <section class="mb-5">
+  {{-- <section class="mb-5">
     <h3 class="mb-3">Screenshots</h3>
     <div class="row g-3">
       @foreach($expsc['screenshots'] ?? [] as $p)
         <div class="col-md-4">
           <div class="card card-project h-100 p-3">
-            {{-- @if(!empty($p['image']))
+            @if(!empty($p['image']))
               <img src="{{ $p['image'] }}" class="img-fluid rounded" alt="{{ $p['title'] }}">
-            @endif --}}
+            @endif
             <h5 class="text-white mt-2">{{ $p['title'] }}</h5>
             <p class="text-primary small">{{ $p['desc'] }}</p>
             @if(!empty($p['link']))<a href="{{ $p['link'] }}" target="_blank" class="mb-1 btn btn-sm btn-outline-info">Open</a>@endif
@@ -37,9 +37,9 @@
       @foreach($expsc['videos'] ?? [] as $p)
         <div class="col-md-4">
           <div class="card card-project h-100 p-3">
-            {{-- @if(!empty($p['image']))
+            @if(!empty($p['image']))
               <img src="{{ $p['image'] }}" class="img-fluid rounded" alt="{{ $p['title'] }}">
-            @endif --}}
+            @endif
             <h5 class="text-white mt-2">{{ $p['title'] }}</h5>
             <p class="text-primary small">{{ $p['desc'] }}</p>
             @if(!empty($p['link']))<a href="{{ $p['link'] }}" target="_blank" class="mb-1 btn btn-sm btn-outline-info">Go to Experience</a>@endif
@@ -48,23 +48,5 @@
         </div>
       @endforeach
     </div>
-  </section>
-
-  <section>
-    <h3 class="mb-3">📄 Certifications & Publications</h3>
-    <div class="row g-3">
-      @foreach($expsc['c&p'] ?? [] as $p)
-        <div class="col-md-4">
-          <div class="card card-project h-100 p-3">
-            <h5 class="text-white mt-2">{{ $p['title'] }}</h5>
-            @if(!empty($p['image']))
-              <img style="filter: blur(1px)" src="{{ $p['image'] }}" class="img-fluid rounded" alt="{{ $p['title'] }}">
-            @endif
-            <p class="text-primary small mt-3">{{ $p['desc'] }}</p>
-            @if(!empty($p['link']))<a href="{{ $p['link'] }}" target="_blank" class="mb-1 btn btn-sm btn-outline-info">See Document</a>@endif
-          </div>
-        </div>
-      @endforeach
-    </div>
-  </section>
+  </section> --}}
 @endsection

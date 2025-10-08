@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\File;
 
+Route::redirect('/', '/home');
+
 Route::get('/home', function () {
     $path = resource_path('data/projects.json');
     $json = File::exists($path) ? File::get($path) : '{}';

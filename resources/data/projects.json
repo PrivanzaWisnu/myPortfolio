@@ -1,58 +1,211 @@
 {
-  "coding": [
-    {
-      "id": 1,
-      "title": "Youtube Realtime Analytics",
-      "desc": "(Still in progress)",
-      "image": "/images/weather.png",
-      "link": "https://github.com/you/weather-app"
-    },
-    {
-        "id": 2,
-        "title": "Portfolio Website",
-        "desc": "My Simple Portfolio using Laravel + Bootstrap",
-        "image": "/images/blog.png",
-        "link": "https://github.com/PrivanzaWisnu/myPortfolio"
-  }
-  ],
-  "roblox": [
-    {
-      "id": 11,
-      "title": "LG01 Battlegrounds",
-      "desc": "Roblox battleground map inspired by my friends in college. (Still in progress)",
-      "image": "/images/obby.png",
-      "link": "-",
-      "link2": "/experienceshowcase"
-    }
-  ],
-  "c&p": [
-    {
-      "id": 21,
-      "title": "Bitlearn Bootcamp",
-      "desc": "Bitlearn Bootcamp: Laravel & SQL Class",
-      "image": "img/BitlearnBatch2.png",
-      "link": "https://drive.google.com/file/d/17WcSSVQjQNdTY7tAEyv6J0xqUMT1_CXx/view?usp=sharing"
-    },
-    {
-      "id": 22,
-      "title": "Sakura Fubuki",
-      "desc": "Sakura Fubuki Japan Course: Basic 0",
-      "image": "img/JepangBasic0SakuraFubuki.jpg",
-      "link": "https://drive.google.com/file/d/18awIenBnV27BoisC-fkH73aHwFCZWkJz/view?usp=drive_link"
-    },
-    {
-      "id": 23,
-      "title": "Persatuan Insinyur Indonesia",
-      "desc": "Seminar About Usage of Machine Learning Algorithm for Network Forensics Investigation",
-      "image": "img/PII.jpg",
-      "link": "https://drive.google.com/file/d/1gbAJL4gIMCNvHtzKV6ffzkd-Gy2jPWqh/view?usp=drive_link"
-    },
-    {
-        "id": 24,
-      "title": "HackerRank",
-      "desc": "HackerRank SQL Basic Certificate",
-      "image": "img/sql_basic_certificate.jpg",
-      "link": "https://drive.google.com/file/d/1g9_b9_FPx3qz5pvgzaVN7Jo1VLyhi1ic/view?usp=drive_link"
-    }
-  ]
+    "pl":[
+        {
+            "id": 5,
+            "title": "C",
+            "image": "img/C_Logo.png",
+            "rating": 4
+        },
+        {
+            "id": 6,
+            "title": "Java",
+            "image": "img/JavaLogo.JPG",
+            "rating": 2
+        },
+        {
+            "id": 7,
+            "title": "PHP",
+            "image": "img/PHPLogo.png",
+            "rating": 4
+        },
+        {
+            "id": 8,
+            "title": "SQL",
+            "image": "img/MySQL_Logo.png",
+            "rating": 4
+        },
+        {
+            "id": 9,
+            "title": "R",
+            "image": "img/R_Logo.png",
+            "rating": 3
+        },
+        {
+            "id": 10,
+            "title": "HTML5",
+            "image": "img/HTML5Logo.png",
+            "rating": 4
+        },
+        {
+            "id": 11,
+            "title": "CSS3",
+            "image": "img/CSS3Logo.png",
+            "rating": 4
+        },
+        {
+            "id": 12,
+            "title": "JavaScript",
+            "image": "img/JSLogo.png",
+            "rating": 4
+        },
+        {
+            "id": 14,
+            "title": "Python",
+            "image": "img/PythonLogo.png",
+            "rating": 3
+        },
+        {
+            "id": 15,
+            "title": "Luau",
+            "image": "img/LuauLogo.png",
+            "rating": 2
+        }
+    ],
+    "f&l":[
+        {
+            "id": 41,
+            "title": "Laravel",
+            "image": "img/LaravelLogo.png",
+            "rating": 3
+        },
+        {
+            "id": 42,
+            "title": "Bootstrap",
+            "image": "img/BootstrapLogo.png",
+            "rating": 3
+        },
+        {
+            "id": 43,
+            "title": "Vite",
+            "image": "img/ViteLogo.png",
+            "rating": 2
+        }
+    ],
+    "tools":[
+        {
+            "id": 51,
+            "title": "Vercel",
+            "image": "img/VercelLogo.png",
+            "rating": 3
+        },
+        {
+            "id": 52,
+            "title": "GitHub",
+            "image": "img/githubLogo.png",
+            "rating": 3
+        },
+        {
+            "id": 53,
+            "title": "VS Code",
+            "image": "img/VSCodeLogo.png",
+            "rating": 4
+        },
+        {
+            "id": 54,
+            "title": "Figma",
+            "image": "img/FigmaLogo.png",
+            "rating": 4
+        },
+        {
+            "id": 55,
+            "title": "XAMPP",
+            "image": "img/XAMPPLogo.png",
+            "rating": 4
+        },
+        {
+            "id": 56,
+            "title": "Roblox Studio",
+            "image": "img/RobloxStudioLogo.png",
+            "rating": 3
+        },
+        {
+            "id": 57,
+            "title": "Docker",
+            "image": "img/DockerLogo.png",
+            "rating": 3
+        },
+        {
+            "id": 58,
+            "title": "Canva",
+            "image": "img/CanvaLogo.png",
+            "rating": 4
+        }
+    ],
+    "lang":[
+        {
+            "id": 91,
+            "title": "Indonesian",
+            "image": "img/IDNFlag.png",
+            "rating": 5
+        },
+        {
+            "id": 92,
+            "title": "English",
+            "image": "img/UKFlag.png",
+            "rating": 4
+        },
+        {
+            "id": 93,
+            "title": "Japanese",
+            "image": "img/JPFlag.png",
+            "rating": 2
+        }
+    ],
+    "coding": [
+        {
+            "id": 101,
+            "title": "Portfolio Website",
+            "desc": "My Simple Portfolio using Laravel + Bootstrap",
+            "image": "/images/blog.png",
+            "link": "https://github.com/PrivanzaWisnu/myPortfolio"
+        },
+        {
+            "id": 102,
+            "title": "Youtube Realtime Analytics",
+            "desc": "(Still in progress)",
+            "image": "/images/weather.png",
+            "link": "https://github.com/PrivanzaWisnu/yt-realtime-analytics"
+        }
+
+    ],
+    "roblox": [
+        {
+            "id": 201,
+            "title": "LG01 Battlegrounds",
+            "desc": "Roblox battlegrounds map inspired by my friends in college. (Still in progress)",
+            "image": "/images/obby.png",
+            "link": "-",
+            "link2": "/experienceshowcase"
+        }
+    ],
+    "c&p": [
+        {
+            "id": 301,
+            "title": "Bitlearn Bootcamp",
+            "desc": "Bitlearn Bootcamp: Laravel & SQL Class",
+            "image": "img/BitlearnBatch2.png",
+            "link": "https://drive.google.com/file/d/17WcSSVQjQNdTY7tAEyv6J0xqUMT1_CXx/view?usp=sharing"
+        },
+        {
+            "id": 302,
+            "title": "Sakura Fubuki",
+            "desc": "Sakura Fubuki Japan Course: Basic 0",
+            "image": "img/JepangBasic0SakuraFubuki.jpg",
+            "link": "https://drive.google.com/file/d/18awIenBnV27BoisC-fkH73aHwFCZWkJz/view?usp=drive_link"
+        },
+        {
+            "id": 303,
+            "title": "Persatuan Insinyur Indonesia",
+            "desc": "Seminar About Usage of Machine Learning Algorithm for Network Forensics Investigation",
+            "image": "img/PII.jpg",
+            "link": "https://drive.google.com/file/d/1gbAJL4gIMCNvHtzKV6ffzkd-Gy2jPWqh/view?usp=drive_link"
+        },
+        {
+            "id": 304,
+            "title": "HackerRank",
+            "desc": "HackerRank SQL Basic Certificate",
+            "image": "img/sql_basic_certificate.jpg",
+            "link": "https://drive.google.com/file/d/1g9_b9_FPx3qz5pvgzaVN7Jo1VLyhi1ic/view?usp=drive_link"
+        }
+    ]
 }
