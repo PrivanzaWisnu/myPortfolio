@@ -6,7 +6,7 @@
   <header class="d-flex align-items-center gap-3">
     {{-- <div class="rounded-3 d-flex align-items-center justify-content-center" style="width:72px;height:72px;background:linear-gradient(135deg,#b700ff,#00f0ff);font-weight:700;">PW</div> --}}
     <div class="profile-pic-wrapper mb-5">
-    <img style="pointer-events: none;border-radius: 25%" width="100" height="100" src="{{ asset('img\fotoPorto.jpg') }}" alt="">
+    <img style="pointer-events: none;border-radius: 25%" width="100" height="100" src="{{ asset('img/fotoPorto.jpg') }}" alt="">
     </div>
     <div class="mb-5">
       <h1 class="neon-title">Vanza</h1>

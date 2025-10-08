@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>@yield('title','Privanza — Portfolio')</title>
-  <link rel="icon" href="{{ asset('img\fotoPorto.jpg') }}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('img/fotoPorto.jpg') }}" type="image/x-icon">
 
   <!-- Bootstrap CDN -->
   @include('layouts.styling')
