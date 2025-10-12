@@ -129,6 +129,12 @@
             "title": "Canva",
             "image": "img/CanvaLogo.png",
             "rating": 4
+        },
+        {
+            "id": 59,
+            "title": "Eclipse IDE",
+            "image": "img/EclipseIDELogo.png",
+            "rating": 3
         }
     ],
     "lang":[
@@ -156,17 +162,20 @@
             "id": 101,
             "title": "Portfolio Website",
             "desc": "My Simple Portfolio using Laravel + Bootstrap",
-            "image": "/images/blog.png",
             "link": "https://github.com/PrivanzaWisnu/myPortfolio"
         },
         {
             "id": 102,
             "title": "Youtube Realtime Analytics",
             "desc": "(Still in progress)",
-            "image": "/images/weather.png",
             "link": "https://github.com/PrivanzaWisnu/yt-realtime-analytics"
+        },
+        {
+            "id": 103,
+            "title": "Willify",
+            "desc": "A Simple Web for Songs Built with HTML, CSS, and JavaScript",
+            "link": "https://github.com/PrivanzaWisnu/Willify"
         }
-
     ],
     "roblox": [
         {
