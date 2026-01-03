@@ -19,8 +19,14 @@
 <body style="padding-top:76px;">
   <nav class="navbar navbar-dark bg-transparent py-3 border-secondary border-bottom fixed-top shadow" style="padding-top:0.35rem; padding-bottom:0.35rem; z-index:9999;backdrop-filter:blur(10px)">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold mx-2" href="/home">Home</a>
+      <a class="navbar-brand fw-bold mx-2" href="/home">Privanza Wisnu's Portfolio</a>
       <div>
+        <a class="mx-3 btn btn-outline-secondary btn-sm" href="https://www.instagram.com/vanzzz.a" target="_blank">
+        <img width="30" height="30" src="{{asset('img/igLogo.png')}}" alt="">
+        </a>
+        <a class="mx-3 btn btn-outline-secondary btn-sm" href="https://wa.me/6281285552004" target="_blank">
+        <img width="30" height="30" src="{{asset('img/waLogo.png')}}" alt="">
+        </a>
         <a class="mx-3 btn btn-outline-secondary btn-sm" href="https://www.linkedin.com/in/privanza-wisnu-b38267386" target="_blank">
         <img width="30" height="30" src="{{asset('img/logo-linkedin.png')}}" alt="">
         </a>

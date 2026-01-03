@@ -160,8 +160,8 @@
     "coding": [
         {
             "id": 101,
-            "title": "Portfolio Website",
-            "desc": "My Simple Portfolio using Laravel and Bootstrap",
+            "title": "My Portfolio",
+            "desc": "Portfolio Web using Laravel and Bootstrap",
             "link": "https://github.com/PrivanzaWisnu/myPortfolio"
         },
         {
@@ -179,7 +179,7 @@
         {
             "id": 104,
             "title": "Heart Disease Analytics",
-            "desc": "Data Analytics Project on Heart Disease Dataset using Python 3",
+            "desc": "Classification on Heart Disease Dataset using Python with Three Algorithms: Logistic Regression, Decision Tree, and Random Forest",
             "link": "https://github.com/PrivanzaWisnu/Heart-Disease-Analytics"
         },
         {
